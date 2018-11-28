@@ -1,0 +1,26 @@
+{
+  "name": "newfile",
+  "version": "1.0.0",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "^1.18.3",
+    "cors": "*",
+    "express": "^4.16.4",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "multer": "^1.4.1",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Tharinduni",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
